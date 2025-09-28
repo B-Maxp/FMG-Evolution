@@ -1,11 +1,10 @@
 import "./App.css";
+import Header from "./components/Header/Header";
 
 function App() {
   return (
     <>
-      <header>
-        <h1 className="logo">FMG Evolution</h1>
-      </header>
+      <Header />
     </>
   );
 }

@@ -1,13 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap");
+
+:root {
+  --font-family-body: "Inter", sans-serif;
+
+  --light-primary: rgb(149, 178, 202);
+  --light-primary-opacity25: rgba(149, 178, 202, 0.25);
+  --light-secondary: rgb(202, 158, 131);
+  --text-light: rgba(249, 249, 246, 1);
+  --text-dark: rgb(31, 51, 107);
+}
+
 * {
   margin: 0;
   box-sizing: border-box;
 }
 
 body {
-  font-family: "Lato", sans-serif;
   background-color: #f4f4f4;
 }
 
 img {
-  width: 100px;
+  width: 60px;
+}
+
+button {
+  border-style: none;
+  cursor: pointer;
 }
